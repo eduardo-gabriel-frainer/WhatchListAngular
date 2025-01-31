@@ -3,16 +3,51 @@
     {
       "name": "Frieren",
       "category": "Anime",
-      "status": "Assistido",
-      "review": 5,
+      "status": "Assistindo",
+      "review": "5",
       "id": "1"
     },
     {
-      "name": "Frieddren",
+      "name": "Attack on Titan",
+      "category": "Anime",
+      "status": "Assistindo",
+      "review": "4",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "O planeta dos Macacos",
+      "category": "Filme",
+      "status": "Assistido",
+      "review": "5"
+    },
+    {
+      "id": "4",
+      "name": "Pokémon",
       "category": "Anime",
       "status": "Assistido",
-      "review": 1,
-      "id": "1"
+      "review": "5"
+    },
+    {
+      "id": "5",
+      "name": "Jujutso Kaisen",
+      "category": "Anime",
+      "status": "Assistindo",
+      "review": "5"
+    },
+    {
+      "id": "1",
+      "name": "One Piece",
+      "category": "Anime",
+      "status": "Assistindo",
+      "review": "5"
+    },
+    {
+      "id": "2",
+      "name": "Dorama",
+      "category": "Outro",
+      "status": "Não Assistido",
+      "review": "1"
     }
   ]
 }

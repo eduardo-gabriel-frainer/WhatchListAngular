@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "name": "Frieren",
+      "category": "Anime",
+      "status": "Assistido",
+      "review": 5,
+      "id": "1"
+    },
+    {
+      "name": "Frieddren",
+      "category": "Anime",
+      "status": "Assistido",
+      "review": 1,
+      "id": "1"
+    }
+  ]
+}

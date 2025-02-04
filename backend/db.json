@@ -1,53 +1,53 @@
 {
   "items": [
     {
-      "name": "Frieren",
-      "category": "Anime",
-      "status": "Assistindo",
-      "review": "5",
-      "id": "1"
-    },
-    {
-      "name": "Attack on Titan",
-      "category": "Anime",
-      "status": "Assistindo",
-      "review": "4",
-      "id": "2"
-    },
-    {
-      "id": "3",
-      "name": "O planeta dos Macacos",
-      "category": "Filme",
-      "status": "Assistido",
-      "review": "5"
-    },
-    {
-      "id": "4",
-      "name": "Pokémon",
-      "category": "Anime",
-      "status": "Assistido",
-      "review": "5"
-    },
-    {
-      "id": "5",
-      "name": "Jujutso Kaisen",
-      "category": "Anime",
-      "status": "Assistindo",
-      "review": "5"
-    },
-    {
       "id": "1",
-      "name": "One Piece",
+      "name": "Frieren",
       "category": "Anime",
       "status": "Assistindo",
       "review": "5"
     },
     {
       "id": "2",
-      "name": "Dorama",
-      "category": "Outro",
-      "status": "Não Assistido",
-      "review": "1"
+      "name": "O planeta dos Macacos",
+      "category": "Filme",
+      "status": "Assistido",
+      "review": "5"
+    },
+    {
+      "id": "3",
+      "name": "Reacher",
+      "category": "Série",
+      "status": "Assistindo",
+      "review": "5"
+    },
+    {
+      "id": "4",
+      "name": "Outer Banks",
+      "category": "Série",
+      "status": "Assistindo",
+      "review": "5"
+    },
+    {
+      "id": "5",
+      "name": "Attack on Titan",
+      "category": "Anime",
+      "status": "Assistido",
+      "review": "4"
+    },
+    {
+      "id": "6",
+      "name": "Pokémon",
+      "category": "Anime",
+      "status": "Assistido",
+      "review": "5"
+    },
+    {
+      "name": "Duro de Matar",
+      "category": "Filme",
+      "status": "Assistido",
+      "review": "5",
+      "id": "8"
     }
   ]
 }

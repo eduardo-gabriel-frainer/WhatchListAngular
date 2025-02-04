@@ -1,0 +1,40 @@
+<div class="table-container">
+    <div class="table">
+      <button class="btn-add" (click)="add()">Adicionar</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Categoria</th>
+            <th>Status</th>
+            <th>Avaliação</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items">
+            <td>{{ item.name }}</td>
+            <td>{{ item.category }}</td>
+            <td>{{ item.status }}</td>
+            <td>
+              <div class="stars" *ngIf="item.review && item.status !== 'Não assistido' && item.review !== 0; else empty">
+                <i *ngFor="let star of [1,2,3,4,5]" 
+                  class="bx bxs-star" 
+                  [style.color]="item.review >= star ? '#ffba00' : '#ccc'">
+                </i>
+              </div>
+              <ng-template #empty>-</ng-template>
+            </td>
+            <td>
+              <button class="btn btn-edit bx bxs-pencil" (click)="edit(item.id)"></button>
+              <button class="btn btn-delete bx bxs-trash" (click)="remove(item.id)"></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <span>...</span>
+    </div>
+  </div>
+
+
+  

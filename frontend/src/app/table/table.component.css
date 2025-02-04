@@ -1,0 +1,103 @@
+/* Container principal */
+.table-container {
+    display: flex; /* Ativa o modelo flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-top: 2rem;
+}
+
+
+.table{
+    background-color: var(--bg-table);
+    width: 88%;
+    border-radius: 7px;
+    box-shadow: 1px 2px 8px var(--shadow-color);
+    padding: 2.5rem;
+    margin: 1.5rem auto;
+}
+
+.table{
+    max-height: 70vh;
+    overflow-y: auto;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+thead tr th{
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    padding: 8px;
+}
+
+thead tr th:last-child{
+    width: 12%;
+}
+
+tbody tr td{
+    background-color: var(--bg-color);
+    padding: 8px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+tbody tr td:first-child::first-letter{
+    text-transform: capitalize;
+}
+
+.bxs-star{
+    color: var(--star);
+}
+
+span{
+    color: var(--text-color);
+    font-size: .9rem;
+}
+
+.btn-add {
+    display: block; /* Faz o botão ocupar toda a largura disponível */
+    margin-bottom: 10px; /* Espaço abaixo do botão */
+    margin-left: 0; /* Alinha o botão à esquerda */
+}
+
+@media screen and (max-width: 650px){
+    .table-container{
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        display: block;
+        max-width: 100%; /* Ajuste conforme necessário */
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .table{
+        max-height: 70vh;
+        padding-top: 5px;
+    }
+
+    table thead{
+        display: none;
+    }
+
+    table tbody tr{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .btn-add{
+        margin-top: 1rem;
+    }
+}
+
+
+/* Celular Pequeno em Pe */
+@media screen and (max-width: 320px) and (orientation : portrait) {
+    .table{
+        max-height: 74vh;
+    }
+}
+
+

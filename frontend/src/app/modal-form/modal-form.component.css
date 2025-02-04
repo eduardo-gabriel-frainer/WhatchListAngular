@@ -1,0 +1,81 @@
+.modal {
+    width: 100vw; /* Agora o modal ocupa toda a largura da janela */
+    height: 100vh; /* Ocupa toda a altura da janela */
+    position: fixed; /* Melhor centralizar com fixed */
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: center; /* Alinha os itens horizontalmente no centro */
+    color: var(--txt-color);  
+}
+
+.modal-form {
+    background-color: var(--bg-table);
+    box-shadow: 1px 2px 8px var(--shadow-color);
+    border-radius: 4px;
+    width: 600px;
+    padding: 1.5rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+    gap: 1rem;
+    width: 100%;
+}
+
+.modal-field select, .modal-field input {
+    height: 40px;
+    background-color: var(--default);
+    color: var(--text-color);
+    padding: 5px 10px;
+    width: 100%;
+    margin: 0.5rem 0 0.8rem 0;
+    border: 1px solid rgb(117, 117, 117);
+}
+
+.modal-field label {
+    color: var(--text-color);
+}
+
+.modal-field option{
+    color: black;
+}
+
+label {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.bts-form {
+    text-align: right;
+}
+
+p {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.error-message{
+    color: var(--error);
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 650px) and (orientation: portrait){
+    .modal-form{
+        padding: 1rem;
+        width: 450px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .modal-field input, .modal-field select{
+        height: 38px;
+    }
+}

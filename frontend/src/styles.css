@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+    outline-style: none;
+    border-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --primary-color: #6258d0;
+    --secundary-color: #685fc97d;
+    --shadow-color: #191717dc;
+    --text-color: #eee;
+    --bg-color: #1d202d;
+    --bg-table: #25293b;
+    --desfault: #323544;
+    --start: #ddc700;
+    --btn: #e97406fc;
+    --btn-delete: #e91906fc;
+    --succes: #aee5dc;
+    --error: #ea9ca3;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+
+button{
+    color: var(--text-color);
+    margin: 0.2rem;
+    padding: 8px;
+}
+
+button:hover{
+    border-radius: 3px;
+    background-color: #ff9a56;
+    color: #000000;
+    cursor: pointer;
+ 
+}
+
+.btn-add, .btn-edit, .btn-save{
+    background-color: var(--btn);
+}
+
+.btn-delete{
+    background-color: var(--btn-delete);
+}
+
+.btn-cancel{
+    background-color: var(--secundary-color);
+}

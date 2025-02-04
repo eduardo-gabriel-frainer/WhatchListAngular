@@ -1,0 +1,36 @@
+.copyright{
+    bottom: 0;
+    position: absolute;
+    color: var(--text-color);
+    font-size: .9rem;
+    margin: 1rem;
+    font-weight: lighter;
+}
+.copyright span{
+    color: var(--btn);
+}
+
+.copyright a{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 320px) and (orientation : portrait) {
+    .copyright {
+       font-size: 0.77rem;
+       position: absolute;
+    }
+}
+
+
+/* Celular deitado */
+@media screen and (orientation: landscape) and (max-width: 640px) {
+    .copyright {
+        position: absolute;
+        bottom: auto;
+        margin-top: 2rem;
+        margin-bottom: 5px;
+    }
+}
+

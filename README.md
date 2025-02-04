@@ -1,13 +1,13 @@
 # App WhatchListAngular
 
-O sistema foi desenvolvido utilizando Angular e tem como objetivo facilitar o registro e organização de filmes, séries e animes que o usuário já assistiu. Com uma interface intuitiva, permite adicionar, visualizar e gerenciar facilmente sua lista de conteúdos acompanhados.
+O WhatchListAngular é um sistema desenvolvido com Angular, projetado para facilitar o registro e a organização de filmes, séries e animes que o usuário já assistiu. Com uma interface intuitiva e interativa, o aplicativo permite adicionar, visualizar e gerenciar facilmente sua lista de conteúdos acompanhados.
 
 # Linguagens e tecnologias Utilizadas
 
-*  Angular
-*  TypesCript
-*  Json
-*  Node
+*  Angular – Framework front-end para construção da interface.
+*  TypeScript – Linguagem principal utilizada no desenvolvimento.
+*  JSON – Formato para troca de dados.
+*  Node.js – Ambiente de execução do backend.
 
   <hr>
 
@@ -27,7 +27,11 @@ O sistema foi desenvolvido utilizando Angular e tem como objetivo facilitar o re
   <br>
   Caso algum campo não tenha sido preenchido ele envia-rá um aviso.
   <hr>
-
+  
+  ![image](https://github.com/user-attachments/assets/eeb8bf9d-ce8e-4168-bc6e-83e6e1a6e24e)
+  <br>
+  Organização do Sistema.
+  <hr>
 
   ## Responsividade
 
@@ -72,6 +76,8 @@ O sistema foi desenvolvido utilizando Angular e tem como objetivo facilitar o re
         <li><b>Frontend:</b> <a href="http://localhost:4200/" target="_blank">localhost:4200/</a></li>
         <li><b>Backend:</b> <a href="http://localhost:8080/" target="_blank">localhost:8080/</a></li>
     </ul>
+
+<hr>
 
 
 
